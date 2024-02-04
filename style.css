@@ -43,7 +43,7 @@ h1 {
   }
 }
 
-#countdown {
+#countdown1 {
   font-size: 3em;
   color: #ffffff;
   padding: 10px;
@@ -54,7 +54,7 @@ h1 {
   transition: all 0.3s ease;
 }
 
-#countdown:hover {
+#countdown1:hover {
   font-size: 3.5em;
   color: red;
   padding: 10px;
@@ -68,7 +68,7 @@ h1 {
     font-size: 2.3em;
   }
 
-  #countdown {
+  #countdown1 {
     font-size: 2.1em;
     color: red;
     padding: 10px;
@@ -77,7 +77,51 @@ h1 {
     font-family: "Arial", sans-serif;
   }
 
-  #countdown:hover {
+  #countdown1:hover {
+    font-size: 2.1em;
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black;
+    font-family: "Arial", sans-serif;
+  }
+}
+
+#countdown2 {
+  font-size: 3em;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+  -webkit-text-stroke: 3px #971a1a;
+  text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+  font-family: "Arial", sans-serif;
+  transition: all 0.3s ease;
+}
+
+#countdown2:hover {
+  font-size: 3.5em;
+  color: red;
+  padding: 10px;
+  font-weight: bold;
+  text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black;
+  font-family: "Arial", sans-serif;
+}
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.3em;
+  }
+
+  #countdown2 {
+    font-size: 2.1em;
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black;
+    font-family: "Arial", sans-serif;
+  }
+
+  #countdown2:hover {
     font-size: 2.1em;
     color: red;
     padding: 10px;
