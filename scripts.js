@@ -76,3 +76,4 @@ const x3 = setInterval(function () {
     document.getElementById("countdown3").innerHTML = "Countdown is OVER!";
   }
 }, 1000);
+
