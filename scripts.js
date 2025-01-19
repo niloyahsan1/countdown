@@ -1,5 +1,5 @@
 // change the date for countdown
-const countdownDate2 = new Date("January 27, 2024 23:00:00").getTime();
+const countdownDate2 = new Date("January 27, 2025 23:00:00").getTime();
 
 const x2 = setInterval(function () {
   const now = new Date().getTime();
